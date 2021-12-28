@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Description: CustomMediatorService
+Bundle-SymbolicName: CustomMediator
+Built-By: hoet2406101767a
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1640667583027
+Import-Package: org.apache.axis2.addressing;version="[1.6,2)",org.apac
+ he.axis2.context;version="[1.6,2)",org.apache.commons.codec.binary;ve
+ rsion="[1.6,2)",org.apache.commons.logging,org.apache.synapse,org.apa
+ che.synapse.core.axis2,org.apache.synapse.mediators,org.apache.synaps
+ e.rest
+DynamicImport-Package: *
+Tool: Bnd-1.15.0
+Export-Package: com.bits.esb;uses:="org.apache.synapse.rest,org.apache
+ .axis2.addressing,org.apache.synapse.core.axis2,org.apache.commons.co
+ dec.binary,org.apache.axis2.context,org.apache.synapse,org.apache.syn
+ apse.mediators,org.apache.commons.logging"
+Bundle-Name: CustomMediator
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_312
+
